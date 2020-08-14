@@ -14,7 +14,7 @@ class BoostPython3 < Formula
   depends_on "boost"
   depends_on "python3"
 
-  needs :cxx11
+  # needs :cxx11
 
   resource "numpy" do
     url "https://files.pythonhosted.org/packages/ee/66/7c2690141c520db08b6a6f852fa768f421b0b50683b7bbcd88ef51f33170/numpy-1.14.0.zip"

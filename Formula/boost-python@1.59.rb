@@ -14,7 +14,7 @@ class BoostPythonAT159 < Formula
 
   keg_only :versioned_formula
 
-  option :cxx11
+  # option :cxx11
 
   option "without-python", "Build without python 2 support"
   depends_on "python3" => :optional
